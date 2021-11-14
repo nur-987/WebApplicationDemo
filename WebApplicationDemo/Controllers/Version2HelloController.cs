@@ -9,7 +9,7 @@ namespace WebApplicationDemo.Controllers
     /// <summary>
     /// routing through attributes.
     /// need to comment out routing provided in WebApiConfig.cs
-    /// 
+    ///
     /// HttpGet through attributes.
     /// Does not need the method to be named as "get"
     /// </summary>

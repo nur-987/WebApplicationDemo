@@ -12,6 +12,8 @@ namespace WebApplicationDemo
             // Web API configuration and services
 
             // Web API routes
+
+            //when doing manual routing, comment this section
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
