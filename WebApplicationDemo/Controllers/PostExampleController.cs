@@ -7,6 +7,9 @@ using System.Web.Http;
 
 namespace WebApplicationDemo.Controllers
 {
+    /// <summary>
+    /// post can have primitive and complet type params
+    /// </summary>
     public class PostExampleController : ApiController
     {
         //move this to models
