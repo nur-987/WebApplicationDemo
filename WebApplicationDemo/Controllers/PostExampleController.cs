@@ -25,6 +25,7 @@ namespace WebApplicationDemo.Controllers
         [Route("find")]
         public Student Post()
         {
+            //displaying a new student as the return 
             return new Student()
             {
                 id = 1,
@@ -42,11 +43,19 @@ namespace WebApplicationDemo.Controllers
             return stu;
         }
 
+        [HttpPost]
         //to get complex type from url 
         [Route("storeV3")]
-        public Student Post([FromUri] Student stu)
+        public Student Post2([FromUri] Student stu)
         {
             return stu;
+        }
+
+        [HttpPost]
+        [Route("poststudent")]
+        public Student PostStudent([FromBody] Student student)
+        {
+            return student;
         }
 
         //return a complex and primitive type together 
@@ -61,6 +70,8 @@ namespace WebApplicationDemo.Controllers
             //primitive type => url
             //complex type => body
         }
+
+
 
 
     }

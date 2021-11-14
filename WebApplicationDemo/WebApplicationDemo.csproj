@@ -86,7 +86,9 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HelloWorldController.cs" />
+    <Compile Include="Controllers\HttpRespReturnExampleController.cs" />
     <Compile Include="Controllers\PostExampleController.cs" />
+    <Compile Include="Controllers\PutPatchExampleController.cs" />
     <Compile Include="Controllers\Version2HelloController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -103,7 +105,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
